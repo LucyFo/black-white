@@ -13,23 +13,25 @@
 <body>
     <header>
         <div class="wrapper">
-            <div class="logo">
-                <h1>Black&White</h1>
-                <p>Lorem ipsum dolor sit amet</p>
+            <div class="header-top">
+                <div class="logo">
+                    <h1>Black&White</h1>
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <form class="search">
+                    <label>
+                        <input type="text" id="search" name="search">
+                        <button type="submit">Search</button>
+                    </label>
+                </form>
             </div>
-            <form class="search">
-                <label>
-                    <input type="text" id="search" name="search">
-                    <button type="submit">Search</button>
-                </label>
-            </form>
         </div>
     </header>
     <div class="slider">
         <div class="wrapper">
             <div class="slider-text">
                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    <!-- sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
             </div>
         </div>
     </div>
@@ -90,7 +92,7 @@
             </section>
             <section class="table">
                 <h3>Table</h3>
-                <table class ="center-table">
+                <table class="center-table">
                     <tr class="first-row">
                         <td class="first-column">Lorem</td>
                         <td class="second-column">Sed ut perspiciatis unde</td>
@@ -110,7 +112,7 @@
                         <td class="fourth-column">At vero eos et</td>
                     </tr>
                     <tr>
-                        <td  class="first-column">At vero eos et</tdd>
+                        <td class="first-column">At vero eos et</tdd>
                         <td class="second-column">At vero eos et</td>
                         <td class="third-column">At vero eos et</td>
                         <td>At vero eos et</td>
@@ -121,18 +123,20 @@
                 <h3>Forms</h3>
                 <form class="forms">
                     <span><label for="text">Text:</label></span>
-                        <input name="text" type="text" id="text" placeholder="Input type text"> 
-                        <span><label>Select:</label></span>
-                        <select name="options">
-                            <option value="option">Option</option>
-                            <option value="volume">m*3</option>
-                            <option value="square">m*2</option>
-                            <option value="width">m</option>
-                          </select>
-                          <span><label for="lorem"><input type="radio" name="Sed" id="sed" value="Sed"> Sed ut perspiciatis unde omnis iste natus</label></span>
-                          <span><label for="lorem"><input type="radio" name="Lorem" id="lorem" value="Lorem" checked> Lorem ipsum dolor sit amet, consectetur</label></span>
-                          <span><label>Textarea:  
-                        <textarea name="message" rows="8" cols="40"></textarea></label></span>
+                    <input name="text" type="text" id="text" placeholder="Input type text">
+                    <span><label>Select:</label></span>
+                    <select name="options">
+                        <option value="option">Option</option>
+                        <option value="volume">m*3</option>
+                        <option value="square">m*2</option>
+                        <option value="width">m</option>
+                    </select>
+                    <span><label for="lorem"><input type="checkbox" name="Sed" id="sed" value="Sed"> Sed ut perspiciatis
+                            unde omnis iste natus</label></span>
+                    <span><label for="lorem"><input type="radio" name="Lorem" id="lorem" value="Lorem" checked> Lorem
+                            ipsum dolor sit amet, consectetur</label></span>
+                    <span><label>Textarea:</label></span>
+                            <textarea name="message" rows="8" cols="40"></textarea>
 
                     <button type="submit">Button</button>
                 </form>
@@ -144,7 +148,7 @@
             <p>&copy; Footer cotnent <a href="#">Link footer</a></p>
         </div>
     </footer>
-    
+
 </body>
 
 </html>

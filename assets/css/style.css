@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-family: "Arial", "Helvetica", sans-serif;
   background-color: #e7e7e7;
   font-size: 13px;
   color: #000000;
@@ -51,6 +51,10 @@ header {
   min-height: 61px;
   background-color: #171616;
 }
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
 
 .logo {
   float: left;
@@ -58,7 +62,7 @@ header {
   width: 134px;
   height: 29px;
   margin: 0;
-  background-image: url('../images/BlackandWhite.png');
+  background-image: url("../images/BlackandWhite.png");
   background-repeat: no-repeat;
 }
 
@@ -67,6 +71,7 @@ header {
 }
 
 form .search {
+  float: right;
   width: 438px;
   height: 27px;
 }
@@ -94,7 +99,7 @@ form .search {
 
 .slider .wrapper {
   min-height: 329px;
-  background: url('../images/slider.jpeg') no-repeat 0 0;
+  background: url("../images/slider.jpeg") no-repeat 0 0;
 }
 
 .slider-text {
@@ -121,7 +126,7 @@ nav {
 nav a {
   padding: 0 25px;
   font-weight: 700;
-  border-right: .5px #cfcbcb solid;
+  border-right: 0.5px #cfcbcb solid;
 }
 
 main h2 {
@@ -171,7 +176,8 @@ footer p a {
   padding-left: 8px;
 }
 
-.list {}
+.list {
+}
 
 .non-styled {
   list-style-type: none;
@@ -213,48 +219,41 @@ td {
   border: 1px solid #d3d2d2;
   border-collapse: collapse;
 }
-
-section .forms {
-  margin-top: 24px;
-}
-
 .forms h3 {
   margin-top: 25px;
 }
 
 .forms form {
-  width: 316px;
+  width: 320px;
   text-align: left;
   min-height: 383px;
 }
 
 .forms input {
+  margin-top: 2px;
   padding: 6px 0 6px 8px;
   width: 222px;
   background-color: transparent;
   border: rgb(169, 169, 169) 1px solid;
   font-size: 13px;
 }
-#sed, #lorem {  
-  width: 22px;  
+#sed,
+#lorem {
+  width: 22px;
   border: rgb(169, 169, 169) 1px solid;
   font-size: 13px;
 }
-
-.forms select,
-.forms textarea {
-  margin-top: 20px;
-}
-
 .forms select {
+  margin-top: 2px;
   padding: 6px 0 6px 8px;
   width: 222px;
   background-color: transparent;
   border: rgb(169, 169, 169) 1px solid;
 }
 
-button {  
+button {
   margin-top: 13px;
+  margin-bottom: 30px;
   width: 90px;
   height: 35px;
   font-size: 14px;
@@ -265,6 +264,7 @@ button {
 }
 
 span {
+  margin-top: 16px;
   display: block;
 }
 footer p {
